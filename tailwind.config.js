@@ -7,17 +7,20 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'main': ['"Cabin"', 'sans-serif'],
+        'arvo': ['"Arvo"', 'sans-serif'],
+        'pacifico': ['"Pacifico"', 'sans-serif'],
       },
       screens: {
-        'ls': '1824px',
-        'pc': '1536px',
-        'tablet': '601px',
-        // 'mobile': '360px',
+        '3xl': '1824px',
       },
       transitionProperty: {
         'height': 'height',
       },
+      colors: {
+        'puce-100': 'rgba(187, 126, 140, 50%)',
+        'light-brown-100': '#DDB677',
+        'chocolate-100': '#561D25',
+      }
     },
   },
   plugins: [],
