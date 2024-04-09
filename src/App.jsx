@@ -8,7 +8,7 @@ function App() {
   // const isMobile = useMediaQuery({ query: '(min-width: 360px)'});
 
   return (
-    <div className='font-main h-screen bg-slate-400 m-auto p-8'>
+    <div className='font-main h-screen bg-slate-400 m-auto p-8 ls:p-12'>
       <Navbar/>
     </div>
   )
