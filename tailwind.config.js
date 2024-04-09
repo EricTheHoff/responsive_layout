@@ -20,6 +20,7 @@ export default {
         'puce-100': 'rgba(187, 126, 140, 50%)',
         'light-brown-100': '#DDB677',
         'chocolate-100': '#561D25',
+        'chocolate-50': 'rgba(86, 29, 37, 60%)',
       }
     },
   },
