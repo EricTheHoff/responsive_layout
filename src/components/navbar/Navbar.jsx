@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
       {!showMobileMenu ? // Checking if mobile menu is not expanded
         <div className='flex justify-between w-full h-20 bg-puce-100 shadow-lg lg:h-24'>
-          <img className='w-8 ml-4 transition-transform md:w-12 lg:w-16 lg:ml-6 lg:cursor-pointer lg:hover:scale-110' src={logo} alt='home'/>
+          <img className='w-8 ml-4 transition-transform md:w-12 lg:w-16 lg:ml-12 lg:cursor-pointer lg:hover:scale-110' src={logo} alt='home'/>
           {!isPC ? // Checking if the mobile menu icon should be shown.
             <img
               className='h-8 mr-4 self-center md:h-12'
@@ -22,7 +22,7 @@ const Navbar = () => {
               alt='menu'
             />
           : // If the mobile menu icon shouldn't be shown, render a list of nav-options
-            <nav className='flex gap-16 self-center mr-6'>
+            <nav className='flex gap-16 self-center mr-12'>
               {navbarOptions.map((el, idx) => {
                 return (
                   <a key={idx} className='font-arvo text-lg cursor-pointer transition-transform hover:scale-110' href='#'>{el}</a>
