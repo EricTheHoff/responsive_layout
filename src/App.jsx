@@ -4,10 +4,12 @@ import CardContainer from "./components/body/CardContainer.jsx";
 
 function App() {
   return (
-    <div className='font-main h-screen bg-gradient-to-br from-yellow-200 via-yellow-400 to-yellow-600'>
+    <div className='h-screen bg-gradient-to-br from-yellow-200 via-yellow-400 to-yellow-600'>
       <Navbar/>
-      <Header/>
-      <CardContainer/>
+      <div className='flex flex-col lg:flex-row'>
+        <Header/>
+        <CardContainer/>
+      </div>
     </div>
   )
 }
