@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='h-screen bg-gradient-to-br from-yellow-200 via-yellow-400 to-yellow-600'>
       <Navbar/>
-      <div className='flex flex-col lg:flex-row'>
+      <div className='flex flex-col lg:flex-row lg:gap-8 2xl:justify-between'>
         <Header/>
         <CardContainer/>
       </div>
