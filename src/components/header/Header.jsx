@@ -1,12 +1,12 @@
 const Header = () => {
   return (
-    <div className='flex flex-col items-center mt-8 text-center font-arvo text-chocolate-100 2xl:mt-16'>
-      <h1 className='text-4xl md:text-6xl'>{`eric's`} <span className='font-pacifico text-chocolate-100 uppercase text-3xl md:text-5xl'>food</span> blog</h1>
-      <h2 className='my-2 md:my-6 md:text-2xl'>delicious recipes and stories</h2>
-      <p className='text-chocolate-50 mx-4 text-sm max-w-md md:text-xl md:max-w-lg lg:max-w-xl xl:max-w-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <span className='mt-6 md:mt-12 md:text-2xl xl:mt-16'>find your new favorite recipe!</span>
+    <div className='flex flex-col items-center mt-8 text-center font-arvo text-chocolate-100 lg:items-start lg:text-left lg:ml-12 xl:mt-16'>
+      <h1 className='text-4xl md:text-6xl xl:text-7xl 2xl:text-8xl'>{`eric's`} <span className='font-pacifico text-chocolate-100 uppercase text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl'>food</span> blog</h1>
+      <h2 className='my-2 md:my-6 md:text-2xl xl:text-3xl 2xl:text-4xl'>delicious recipes and stories</h2>
+      <p className='text-chocolate-50 mx-4 text-sm max-w-md md:mx-0 md:text-xl md:max-w-lg lg:max-w-xl xl:max-w-2xl xl:text-2xl 2xl:text-3xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <span className='mt-6 md:mt-12 md:text-2xl xl:mt-16 xl:text-3xl 2xl:text-4xl'>find your new favorite recipe!</span>
     </div>
-  )
+  ) 
 };
 
 export default Header;
