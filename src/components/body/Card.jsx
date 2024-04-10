@@ -2,7 +2,7 @@ import stew from '../../assets/stew.jpg'
 
 const Card = () => {
   return (
-    <div className='flex flex-shrink-0 justify-between gap-4 bg-light-pink-100 w-full h-52 rounded-lg shadow-lg overflow-hidden relative md:h-64'>
+    <div className='flex flex-shrink-0 justify-between gap-4 bg-light-pink-100 w-full h-52 rounded-lg shadow-lg overflow-hidden relative cursor-pointer transition-transform hover:scale-90 md:h-64'>
       <div>
         <img className='object-cover h-full rounded-l-lg' src={stew} alt='stew'/>
       </div>
