@@ -9,3 +9,5 @@ Integrated the app with a recipe API from API Ninja. Next to implement will be a
 Will also be implementing a database for persistent storage. Still unsure if I'm going to use a relationship database like PSQL. May look into MongoDB just for extra experience.
 
 May look into using @apply feature from Tailwind for easier usability. Not sure how much I like it since it almost feels counterintuitive to Tailwind's advantages. Will look more into this.
+
+App is early enough that I can look into transferring this over from JavaScript to TypeScript.
